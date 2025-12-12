@@ -25,13 +25,13 @@ variable "private_subnet_cidr" {
 variable "instance_type" {
   description = "EC2 instance type"
   type        = string
-  default     = "t3.micro"  # Free tier eligible
+  default     = "t3.micro"
 }
 
 variable "my_ip" {
   description = "Your IP address for SSH access (use 0.0.0.0/0 for testing)"
   type        = string
-  default     = "0.0.0.0/0"  # Change this to your IP for security
+  default     = "0.0.0.0/0"
 }
 
 variable "project_name" {
